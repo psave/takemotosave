@@ -6,6 +6,7 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+ruby 2.1.3p242 (2014-09-19 revision 47630) [i686-linux]
 
 * System dependencies
 
@@ -21,8 +22,7 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* Starting the server
+Start Postgres, then run the following:
+rails s
 
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
