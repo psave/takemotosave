@@ -101,8 +101,6 @@ h2 span {
     font-family: Papyrus, Sans-Serif;
 }
 
-background-image: url(/Huppa/Snapshots/Huppa.jpg);
-
 @media (max-width: 480px) {
     background-image: url(/Huppa/Snapshots/Huppa.jpg);
 }
