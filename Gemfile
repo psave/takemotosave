@@ -7,7 +7,6 @@ gem 'rails', '4.2.6'
 #Limits the Rails 3.0 gems from being installed..
 gem 'rails_12factor'
 
-source "https://rubygems.org"
 ruby "2.3.0"
 
 #Use postgres for database
