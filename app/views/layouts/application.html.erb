@@ -14,12 +14,16 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
+<!-- Adding a font class -->
+<link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
 <ul class="nav nav-pills">
   <li role="presentation" class="active"><%= link_to "Home", root_path %></li>
-  <li role="presentation"><%= link_to "Itinerary", itinerary_index_path %></li>
-  <li role="presentation"><a href="attractions">Attractions</a></li>
+  <!-- <li role="presentation"><%= link_to "Itinerary", itinerary_index_path %></li> -->
+  <li role="presentation"><a href="/#Itinerary">Itinerary</a></li>
+  <!-- <li role="presentation"><a href="attractions">Attractions</a></li> -->
 </ul>
 
 <%= yield %>

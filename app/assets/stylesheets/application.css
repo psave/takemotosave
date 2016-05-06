@@ -58,7 +58,7 @@
 .video-container .title-container {
     z-index: 1000;
     position: absolute;
-    top: 35%;
+    top: 10%;
     width: 100%;
     text-align: center;
     color: #fff;
@@ -66,7 +66,7 @@
 
 .text-white{
     color: #fff !important;
-    background-color: rgba(100,100,100,0.5);
+    /*background-color: rgba(100,100,100,0.5);*/
     display: inline-block;
     padding: 5px;
 }
@@ -79,11 +79,24 @@
    width: 100%; 
 }
 
+h1 span {
+    font-family: 'Abril Fatface';
+}
+
+
 h2 span { 
    color: white; 
-   font: bold 24px/45px Helvetica, Sans-Serif; 
-   letter-spacing: -1px;  
+   font-family: 'Abril Fatface';
+/*   letter-spacing: -1px;  
    background: rgb(0, 0, 0);
-   background: rgba(100,100,100,0.5);
+   background: rgba(100,100,100,0.5);*/
    padding: 10px; 
+}
+
+.location {
+    color: white;
+    font-family: Papyrus, Sans-Serif;
+}
+.nav {
+    font-family: Papyrus, Sans-Serif;
 }
