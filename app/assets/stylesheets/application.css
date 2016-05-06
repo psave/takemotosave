@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+ /* Start CSS for Coverr video */
 .homepage-hero-module {
     border-right: none;
     border-left: none;
@@ -74,10 +75,12 @@
 .text-thin{
     font-weight: 100;
 } 
+
 .image { 
    position: relative; 
    width: 100%; 
 }
+/* END CSS for Video */
 
 h1 span {
     font-family: 'Abril Fatface';
@@ -86,14 +89,18 @@ h1 span {
 
 h2 span { 
    color: white; 
-   font-family: 'Abril Fatface';
+   font-family: 'Papyrus';
 /*   letter-spacing: -1px;  
    background: rgb(0, 0, 0);
    background: rgba(100,100,100,0.5);*/
    padding: 10px; 
 }
 
-.location {
+h3 .text-white .text-thin {
+    font-family: 'Papyrus';
+}
+
+.papyrus {
     color: white;
     font-family: Papyrus, Sans-Serif;
 }
@@ -111,3 +118,29 @@ h2 span {
 @media (max-width: 480px) {
     background-image: url(/Huppa/Snapshots/Huppa.jpg);
 }
+
+/* Making the navbar collapsed by default */
+/*.navbar-header {
+    float: none;
+}
+.navbar-toggle {
+    display: block;
+}
+.navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-collapse.collapse {
+    display: none!important;
+}
+.navbar-nav {
+    float: none!important;
+    margin: 7.5px -15px;
+}
+.navbar-nav>li {
+    float: none;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}*/
