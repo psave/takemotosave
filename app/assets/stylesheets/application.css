@@ -13,7 +13,19 @@
  *= require_tree .
  *= require_self
  */
- /* Start CSS for Coverr video */
+
+ /* -----------TOC--------------- *\
+    Coverr video
+    Text
+    Default Image for mobile
+ \* ----------------------------- */
+
+
+
+ /* ----------------------------- *\
+    Start CSS for Coverr video 
+ \* ----------------------------- */
+
 .homepage-hero-module {
     border-right: none;
     border-left: none;
@@ -80,7 +92,14 @@
    position: relative; 
    width: 100%; 
 }
-/* END CSS for Video */
+
+ /* ----------------------------- *\
+        End CSS for Video
+ \* ----------------------------- */
+
+ /* ----------------------------- *\
+        Start CSS for Text 
+ \* ----------------------------- */
 
 h1 span {
     font-family: 'Abril Fatface';
@@ -115,8 +134,33 @@ h3 .text-white .text-thin {
     color: #DDD0C3;
 }
 
-@media (max-width: 480px) {
-    background-image: url(/Huppa/Snapshots/Huppa.jpg);
+ /* ----------------------------- *\
+        End CSS for Text 
+ \* ----------------------------- */
+
+
+ /* -------------------------------- *\
+    Setting default image for mobile 
+ \* -------------------------------- */
+
+/*@media (max-width: 780px) {
+    body {
+        background-image: url('/Huppa/Snapshots/Huppa.jpg');
+    }
+}*/
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+         .video-container{
+           background: url('../Huppa/Snapshots/Huppa.jpg') no-repeat center center fixed;
+           background-size: cover;
+           height: 100%;
+           z-index: 0;
+         }
+}
+
+video::-webkit-media-controls {
+    display:none !important;
 }
 
 /* Making the navbar collapsed by default */
