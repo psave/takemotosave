@@ -159,6 +159,9 @@ video::-webkit-media-controls {
   display:none !important;
 }
 
+.details {
+  margin-left: 0.5em;
+}
 /* Making the navbar collapsed by default */
 /*.navbar-header {
     float: none;
